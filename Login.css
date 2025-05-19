@@ -125,3 +125,26 @@ h1 {
 #meuFormulario button:hover {
     filter: brightness(110%);
 }
+
+
+@media (max-width: 600px) {
+    .menu-btn {
+      display: block;
+    }
+  
+    nav ul {
+      display: none;
+      flex-direction: column;
+      background-color: #111;
+      position: absolute;
+      top: 70px;
+      right: 10px;
+      padding: 10px;
+      border: 1px solid #f1c40f;
+      z-index: 10;
+    }
+  
+    nav ul.show {
+      display: flex;
+    }
+}

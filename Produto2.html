@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Página de Produto</title>
-  <link rel="stylesheet" href="Produto.css" />
+  <link rel="stylesheet" href="Produto2.css" />
 </head>
 <body>
 
@@ -23,36 +23,65 @@
       <div class="imagens-produto">
         <img src="produto.png" alt="Produto principal" class="imagem-principal" id="imagem-principal" />
         <div class="miniaturas">
-          <img src="imagem1.png" alt="Miniatura 1" class="miniatura" onclick="trocarImagem(this)" />
-          <img src="imagem1,1.png" alt="Miniatura 2" class="miniatura" onclick="trocarImagem(this)" />
+          <img src="imagem3.png" alt="Miniatura 1" class="miniatura" onclick="trocarImagem(this)" />
+          <img src="imagem3,1 .png" alt="Miniatura 2" class="miniatura" onclick="trocarImagem(this)" />
+          <img src="imagem3,2.png" alt="Miniatura 2" class="miniatura" onclick="trocarImagem(this)" />
+          <img src="imagem3,3.png" alt="Miniatura 2" class="miniatura" onclick="trocarImagem(this)" />
+          <img src="imagem3,4.png" alt="Miniatura 2" class="miniatura" onclick="trocarImagem(this)" />
         </div>
       </div>
 
       <div class="detalhes-produto">
-        <h2>PC da Nasa</h2>
+        <h2>PC PARA TRABALHAR</h2>
         <p class="descricao">
-             <h1> Descrição Geral </h1>
+             <h1> *Descrição Geral* </h1>
              <br>
-            Desempenho Inigualável:
-            <br>
-            - Processador Intel i9 14900KF: Para atender às exigências mais rigorosas de processamento.
-            <br>
-            - Placa Mãe Z790: Garantindo a estabilidade necessária para operações intensivas.
-            <br>
-            - Placa de Vídeo RTX 5090 32GB: A potência gráfica para encarar projetos de renderização complexos.
-            <br>
-            - Memória RAM DDR5 192GB: Uma quantidade impressionante para lidar com projetos de alta complexidade.
-            <br>
-            - Armazenamento de 8TB Gen 4: Espaço abundante e velocidades vertiginosas para acomodar todos os seus projetos.
-            <br>
-            - Watercooler 360mm Push'n'Pull
+             <p>
+             <h4> Processador: </h4>
+             
+1 x Processador Intel Core i7-14700, 20-Core, 28-Threads, 3.4GHz (5.4GHz Turbo), Cache 33MB, LGA1700, BX8071514700
 <br>
-             <h1> Sistema Operacional e Garantia:</h1>
-            - Sistema Operacional: Windows 11 Trial para uma experiência imediata.
-            <br>
-            - Garantia: 1 Ano de tranquilidade respaldando a durabilidade e confiabilidade da máquina.
+
+<h4> Cooler: </h4>
+1 x Water Cooler Pichau Lunara, ARGB, 240mm, Preto, PG-LR240-BK01
+<br>
+
+<h4>Placa Mãe: </h4>
+
+1 x Placa Mae Asus TUF Gaming B760M-PLUS II, DDR5, Socket LGA 1700, M-ATX, Chipset Intel B760, TUF-GAMING-B760M-PLUS-II
+<br
+
+<h4> Memória: </h4>
+
+1 x Memoria Pichau Hubble, 16GB (1x16GB), DDR5, 5600MHz, C46, Preto, PCH-HBLE16DDR5-5600
+
+
+<h4> Armazenamento: </h4>
+
+1 x SSD Pichau Rover, 512GB, M.2 2280, PCIe NVMe 3.0, Leitura 2200 MB/s, Gravacao 1700 MB/s, PCH-RVRP-512
+
+
+<h4>Fonte:</h4>
+
+1 x Fonte Pichau Stardust, 750W, Full Modular, Cybenetics Bronze, Preto, PG-ST750-BK01
+<br>
+
+<h4>Gabinete: </h4>
+
+1 x Gabinete Gamer Pichau Apus RGB, Mid-Tower, Lateral de Vidro Temperado, Com 3 Fans, Preto, PG-APS-RGB01
+<br>
+
+<h4>Cabo de Vídeo: </h4>
+
+1 x Cabo HDMI Pichau, 1.8m, Preto, PG-HDTV-BL01
+<br>
+
+<h4>Cabo de Força:</h4>
+
+1 x Cabo de Forca Pichau, 1.5m, 3 Pinos, Preto, PG-PWC-BL01
+            
         </p>
-        <p class="preco">R$ 83000, 00</p>
+        <p class="preco">R$ 8000,00</p>
 
         <form class="opcoes-compra">
           <label for="quantidade">Quantidade:</label>
@@ -70,7 +99,7 @@
 
           <div class="botoes">
             <button onclick="comprar()">Comprar</button>
-            <button onclick="voltar()"> <a href="Main.html"></a> </button>
+            <button onclick="voltar()"> <a href="Main.html">Voltar</a></button>
           </div>
         </form>
       </div>
@@ -122,9 +151,6 @@
       const imagemPrincipal = document.getElementById('imagem-principal');
       imagemPrincipal.src = elemento.src;
     } </script>
-
-
-<div class="menu-btn" onclick="mostrarMenu()">☰</div> 
 
 
 <!-- Código de leitura em Libras -->

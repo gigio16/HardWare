@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HardWare Express</title>
     <link rel="stylesheet" href="Main.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico " type="image/x-icon">
 </head>
 <body>
     <!-- Header -->
@@ -15,18 +15,20 @@
             <hr>
             <h1>HardWare Express</h1>
 
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#Sobre">Sobre</a></li>
-                <li><a href="#Destaques">Destaques</a></li>
-                <li><a href="pagina-produto.html">Produtos</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="Cadastro.html">Cadastrar-se</a></li>
-            </ul>
-            <hr>
-            <hr>
-        </nav>
-    </header>
+    <div class="menu-btn" onclick="mostrarMenu()">☰</div> <!-- criando botao para menu de hamburguer -->
+<nav>
+<ul id="menu">
+<li><a href="#Home">Home</a></li>
+<li><a href="Produto.html">PC DA NASA</a></li>
+<li><a href="Produto1.html">PC PARA TRABALHAR</a></li>
+<li><a href="Produto2.html">PC GAMER</a></li>
+<li><a href="sobrenos.html">Sobre Nós</a></li>
+<li><a href="Login.html">Login</a></li>
+<li><a href="Cadastro.html">Cadastro</a></li>
+<li><input type="text" placeholder="Pesquisar..." class="search-box"></li>
+</ul>
+</nav>
+</header>
 
     <!-- Conteúdo Principal -->
     <main>
@@ -55,7 +57,8 @@
                     <img class="produto-img" src="imagem1.png" alt="PC Workstation OCEX">
                     <p>Workstation OCEX - RTX 5090 32GB - Intel i9 - 192gb DDR5 - M.2 4Tb X2</p>
                     <p class="preco">R$ 83.000,00</p>
-                    <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwidu8C9rqSIAxV-VUgAHbZUAO0YABAFGgJjZQ&co=1&ase=2&gclid=CjwKCAjwxNW2BhAkEiwA24Cm9GcypUygTwq3MjwtduRNfoMnxMg8e2QBYntDK4f_2HQ4ld3JpTFQQRoCBYIQAvD_BwE&sig=AOD64_2ZreuNy3M7UEc08PBb3IiUEm2zIA&ctype=5&q=&nis=4&ved=0ahUKEwiMkry9rqSIAxWSDbkGHQduAH8Qww8Ijgg&adurl=" class="btn-comprar">Compre aqui</a>
+                    <a href="Produto.html" class="btn-comprar">Compre aqui</a>
+                
                 </div>
 
                 <div class="card">
@@ -63,7 +66,7 @@
                     <img class="produto-img" src="imagem2.png" alt="PC Intel Core i7">
                     <p>Intel Core i7 16GB SSD 1TB Monitor LED 24" Windows 10 3green 3green Top 3GT-073</p>
                     <p class="preco">R$ 1.700,00</p>
-                    <a href="https://www.google.com/url?url=https://pt.aliexpress.com/item/1005006923484917.html%3F_randl_currency%3DBRL%26_randl_shipto%3DBR%26src%3Dgoogle&rct=j&q=&esrc=s&opi=95576897&sa=U&ved=0ahUKEwiMkry9rqSIAxWSDbkGHQduAH8QgOUECKUJ&usg=AOvVaw2RqQd9zvyIG2w9rSCG7TLq" class="btn-comprar">Compre aqui</a>
+                    <a href="Produto1.html" class="btn-comprar">Compre aqui</a>
                 </div>
 
                 <div class="card">
@@ -71,7 +74,7 @@
                     <img class="produto-img" src="imagem3.png" alt="PC Intel i7-14700">
                     <p>Intel i7-14700, UHD Graphics 770, 16GB DDR5, SSD M.2 480GB</p>
                     <p class="preco">R$ 8.000,00</p>
-                    <a href="https://www.amazon.com.br/My-Hero-Academia-Boku/dp/8545702213/ref=sr_1_14?crid=37EKLXYQ0KCWB&dib=eyJ2IjoiMSJ9.g3Q9NQehLoOcXkpVK-VZZUMRpFvmU2EhOn8mmNiJYMAN4VagEGZQ8iLfn8tfJWLiePeQ0KiYYHEjWVelm1M7Cry8Q1Q_E1fD2bubdhOSXKi3bydqRcOcFg__uRirzTSsUXnl35URJ1dw_B6rP02E6XMS94aToCTnMBVRf0r-R5U_dEgWYBtSCee2xn4Q-U7njkXRTgXQ6KIKIsMmZxOS7sHzwXr5V0fL7jTkfAqCVRMLBUxR2Zx1G9KQ_kf639H5n4h0dA0J3lE56bQ73QsAqVoiYW8CfkEvm5tqaEfTK_Y.sOvetHykAo2sVPyQ_YdwjWPL9rm-ReOOSCUTPuhj1DY&dib_tag=se&keywords=my+hero+academia&qid=1729527281&sprefix=%2Caps%2C454&sr=8-14" class="btn-comprar">Compre aqui</a>
+                    <a href="Produto2.html" class="btn-comprar">Compre aqui</a>
                 </div>
 
                 <div class="card">
@@ -79,10 +82,58 @@
                     <img class="produto-img" src="imagem4.png" alt="PC AMD Ryzen 5">
                     <p>AMD Ryzen 5 5600GT, 16GB DDR4, SSD 480GB</p>
                     <p class="preco">R$ 3.000,00</p>
-                    <a href="https://shopee.com.br/product/379702222/23597118715?gads_t_sig=VTJGc2RHVmtYMTlxTFVSVVRrdENkVHQ3ZkZSUTMrR3pBWmZZNzdrcnRBMW9ZbzNHZG03aXc2QXRaVnlVaThIQVlkZ0xhTGhZNHAvbXBBWW8vakZxUW9VZGl1MGN1a2JkdUpSTERkSGRKUTZBelFMdGp3TldSYmRPQzVQREpNNWppQUlMM3lhbWRsTkF6bzhGUmYwZ1BBPT0&srsltid=AfmBOorywezcyh4KF7BL60E0hYGQqjnBLH31BKO54BilihFcxcqgG-9oZ7Q" class="btn-comprar">Compre aqui</a>
+                    <a href="" class="btn-comprar">Compre aqui</a>
                 </div>
             </div>
         </section>
     </main>
+    
+    <center> <p> <h2>Sobre a Hardware Express</h2>
+        A Hardware Express é sua loja online especializada em peças e componentes de informática. Trabalhamos com os melhores produtos <br>
+        do mercado para quem busca performance, confiabilidade e qualidade na hora de montar, fazer upgrade ou manter o seu PC. <br>
+        No nosso catálogo, você encontra uma ampla variedade de processadores, placas de vídeo, memórias RAM, SSDs, HDs, placas-mãe, <br>
+        fontes, gabinetes e acessórios, sempre com ótimos preços, envio rápido e atendimento personalizado. <br>
+        Atendemos desde gamers exigentes até profissionais que precisam de alto desempenho em suas máquinas. Aqui, tecnologia e confiança andam juntas. <br>
+        Hardware Express – Seu hardware, entregue com velocidade.</p> </center>
+
+
+        <!-- Footer -->
+    <footer>
+        <div class="rodape">
+            <div class="container">
+                <div class="contact-info">
+                    <p>Endereço: Rua dos Jogos, 123 - Cidade Campinas, Estado Sao Paulo</p>
+                    <p>Telefone: (19) 1234-5678</p>
+                    <p>Email: HardWare.Express@gmail.com</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Política de Priv.</a> <br>
+                    <a href="#">Termos de Serviço</a> <br>
+                </div>
+                <div class="social-media">
+                    <a href="#">Facebook</a> <br>
+                    <a href="#">Twitter</a> <br>
+                    <a href="#">Instagram</a> <br>
+                </div>
+                <div class="newsletter">
+                    <h4>Inscreva-se na nossa newsletter</h4>
+                    <input type="email" placeholder="Seu e-mail">
+                    <button>Inscrever-se</button>
+
+                    <!-- Código de leitura em Libras -->
+
+    <!-- inicio ACESSIBILIDADE EM LIBRAS -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- fim ACESSIBILIDADE EM LIBRAS -->
+     <script src="Main.js" ></script>
 </body>
 </html>
