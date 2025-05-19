@@ -1,0 +1,127 @@
+/* Reset e estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #e0e0e0;
+    line-height: 1.6;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #16ccda; /* Azul-marinho */
+    font-size: 2.2rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #16ccda;
+    text-shadow: 0 2px 4px rgba(70, 130, 180, 0.3);
+}
+
+/* Container do formulário */
+#meuFormulario {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #121212;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(70, 130, 180, 0.2);
+    border: 1px solid #333;
+}
+
+/* Estilos para labels */
+#meuFormulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #16ccda;
+}
+
+/* Estilos para inputs */
+#meuFormulario input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #222;
+    color: #fff;
+}
+
+#meuFormulario input:focus {
+    border-color: #16ccda;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(70, 130, 180, 0.3);
+    background-color: #2a2a2a;
+}
+
+/* Estilo para o botão */
+#meuFormulario button {
+    background-color: #16ccda;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+#meuFormulario button:hover {
+    background-color: #3a6d99;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(70, 130, 180, 0.4);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    #meuFormulario {
+        padding: 15px;
+    }
+}
+
+/* Estilo para campos obrigatórios */
+#meuFormulario input:required {
+    border-left: 3px solid #e74c3c;
+}
+
+#meuFormulario input:required:valid {
+    border-left: 3px solid #2ecc71;
+}
+
+/* Estilo para o campo de data */
+#dataNascimento {
+    padding: 11px;
+}
+
+/* Estilo para campos de CEP e UF (menor largura) */
+#cep, #uf {
+    max-width: 150px;
+}
+
+/* Efeito de brilho nos elementos */
+#meuFormulario input:focus, 
+#meuFormulario button:hover {
+    filter: brightness(110%);
+}
